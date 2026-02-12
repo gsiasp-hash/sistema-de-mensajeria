@@ -48,8 +48,8 @@ section {
   gap: 15px;
   margin-left: 30px;
 }
-.menu{
-   display: flex;
+.menu {
+  display: flex;
   flex-flow: row nowrap;
   align-items: center;
   gap: 15px;
@@ -65,15 +65,13 @@ section {
 .contactos {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   width: 100%;
 }
 .contacto {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  width: 100%;
-  margin: 0;
+  padding-left: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
   gap: 20px;
