@@ -24,12 +24,10 @@ aside {
 }
 section {
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 75%;
   height: 100vh;
-  text-align: center;
 }
 /*chats*/
 .usuario {
@@ -42,7 +40,7 @@ section {
   padding-bottom: 20px;
   border-bottom: 2px solid #bec1bb;
 }
-.estado{
+.estado {
   color: #bec1bb;
 }
 .datosUsuario {
@@ -76,6 +74,7 @@ section {
   flex-flow: row nowrap;
   align-items: center;
   padding-left: 40px;
+  padding-right: 5%;
   padding-top: 15px;
   padding-bottom: 15px;
   gap: 20px;
@@ -128,4 +127,11 @@ section {
 }
 .primary-button:focus {
   background-color: #bec1bb;
+}
+.chat {
+  width: 50%;
+  text-align: center;
+}
+.chat img {
+  width: 350px;
 }
