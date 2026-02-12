@@ -40,6 +40,10 @@ section {
   padding-bottom: 20px;
   border-bottom: 2px solid #bec1bb;
 }
+i:hover {
+  transform: translateY(-2px);
+  transition: 200ms all;
+}
 .estado {
   color: #bec1bb;
 }
@@ -79,6 +83,10 @@ section {
   padding-bottom: 15px;
   gap: 20px;
   border-top: 2px solid #bec1bb;
+}
+.contacto:hover {
+  transition: 300ms all;
+  transform: translateX(7px);
 }
 /* tamaño de fuentes */
 .large {
@@ -124,10 +132,13 @@ section {
 }
 .primary-button:hover {
   background-color: #cdc3e6;
+  transition: 300ms all;
+  transform: scale(1.05);
 }
 .primary-button:focus {
   background-color: #bec1bb;
 }
+/* seccion principal */
 .chat {
   width: 50%;
   text-align: center;
