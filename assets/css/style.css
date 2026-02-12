@@ -64,6 +64,7 @@ i:hover {
 .nuevoChat {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -83,6 +84,7 @@ i:hover {
   padding-bottom: 15px;
   gap: 20px;
   border-top: 2px solid #bec1bb;
+  background-color: #fff;
 }
 .contacto:hover {
   transition: 300ms all;
@@ -101,6 +103,7 @@ i:hover {
 .x-small {
   font-size: 10px;
 }
+/* tipos de fuentes */
 .bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
