@@ -2,7 +2,7 @@
 /*general*/
 main {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
 }
 h3,
 h2,
@@ -13,12 +13,13 @@ span {
 body {
   background-color: #e8ebe4;
   margin: 0;
+  color: #1b1f21;
 }
 aside {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  width: 20%;
+  min-width: 20vw;
   min-height: 100vh;
   background-color: #fff;
 }
@@ -26,8 +27,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  min-height: 100vh;
+  min-width: 80vw;
 }
 /*chats*/
 .usuario {
@@ -72,17 +72,15 @@ i:hover {
 .contactos {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
   width: 100%;
 }
 .contacto {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  padding-left: 40px;
-  padding-right: 5%;
-  padding-top: 15px;
-  padding-bottom: 15px;
   gap: 20px;
+  padding: 10px;
   border-top: 2px solid #bec1bb;
   background-color: #fff;
 }
@@ -117,6 +115,7 @@ i:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  border: 2px solid #D4DCFF;
 }
 .normalThumbnail {
   width: 60px;
