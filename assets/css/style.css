@@ -86,7 +86,7 @@ i:hover {
 }
 .contacto:hover {
   transition: 300ms all;
-  transform: translateX(7px);
+  transform: translateX(3px);
 }
 /* tamaño de fuentes */
 .large {
@@ -115,7 +115,7 @@ i:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #D4DCFF;
+  border: 2px solid #d4dcff;
 }
 .normalThumbnail {
   width: 60px;
