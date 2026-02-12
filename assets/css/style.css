@@ -140,8 +140,13 @@ i:hover {
 }
 /* seccion principal */
 .chat {
-  width: 50%;
-  text-align: center;
+ display: flex;
+ flex-flow: column;
+ gap: 5px;
+ justify-content: center;
+ align-items: center;
+ width: 50%;
+ text-align: center;
 }
 .chat img {
   width: 350px;
