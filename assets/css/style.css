@@ -2,7 +2,7 @@
 /*general*/
 main {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 h3,
 h2,
